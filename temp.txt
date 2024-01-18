@@ -1,0 +1,17 @@
+int swap();
+int main()
+{
+    swap();
+}
+int swap()
+{
+    int a=70, b=10, temp;
+    temp=a;
+    a=b;
+    b=temp;
+    printf("a=%d b=%d",a,b);
+    
+}
+    
+
+

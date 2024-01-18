@@ -1,0 +1,19 @@
+int main()
+{
+    int n,enterednum;
+    printf("enter a numbar");
+    scanf("%d",&n);
+    enterednum=n;
+    
+    int remainder ,result;
+    while(n!=0){
+        remainder =n%10;
+        result = result*10 + remainder;
+        n/=10;
+    }
+    if(enterednum ==result){
+        printf("entered numbar is a palindrome");
+    }else{
+        printf("entered numbar is not a palindrome");
+    }
+}
